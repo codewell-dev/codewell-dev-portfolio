@@ -40,7 +40,7 @@ export const siteConfig = {
     'freelance web developer EU',
     'contract developer remote',
     'web development for startups',
-    'ecommerce development'
+    'ecommerce development',
     'CRM development',
     'dashboard development',
   ],

@@ -1,15 +1,15 @@
 import { Icons } from '@/components/icons';
 
 export const links = [
-  { name: 'Home',         hash: '#home' },
-  { name: 'Why hire me',  hash: '#why-hire-me' },
-  { name: 'About',        hash: '#about' },
-  { name: 'Services',     hash: '#services' },
-  { name: 'Experience',   hash: '#experience' },
-  { name: 'Projects',     hash: '#projects' },
-  { name: 'Blog',         hash: '#blog' },
+  { name: 'Home', hash: '#home' },
+  { name: 'Why hire me', hash: '#why-hire-me' },
+  { name: 'About', hash: '#about' },
+  { name: 'Services', hash: '#services' },
+  { name: 'Experience', hash: '#experience' },
+  { name: 'Projects', hash: '#projects' },
+  { name: 'Blog', hash: '#blog' },
   { name: 'Testimonials', hash: '#testimonials' },
-  { name: 'Contact',      hash: '#contact' },
+  { name: 'Contact', hash: '#contact' },
 ] as const;
 
 export type NavLink = (typeof links)[number];
@@ -23,7 +23,7 @@ export const projectsData = [
     technologies: ['React', 'MaterialUI', 'NestJS', 'MongoDB'],
     links: {
       preview: 'https://pizzahouse.ua/',
-      github: 'https://github.com/codewell-dev',
+      github: 'https://github.com/codewell-dev/pizza-house-client',
     },
   },
   {
@@ -33,8 +33,8 @@ export const projectsData = [
       'This portfolio site. Built with Next.js, multilingual (EN/PL/UK), full SEO — JSON-LD, hreflang, Open Graph, and llms.txt for AI discoverability.',
     technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
     links: {
-      preview: 'https://codewell-dev.com/',
-      github: 'https://github.com/codewell-dev',
+      preview: 'https://codewell-dev-portfolio.vercel.app',
+      github: 'https://github.com/codewell-dev/codewell-dev-portfolio',
     },
   },
 ] as const;
@@ -46,7 +46,16 @@ export const experiencesData = [
     description:
       'Running my own freelance practice under the codewell-dev brand. I deliver responsive web applications, e-commerce platforms, and custom SaaS solutions for clients across Europe — end-to-end, from architecture to deployment.',
     period: '2023 – Present',
-    technologies: ['React.js', 'Next.js', 'Node.js', 'MongoDB', 'Express', 'TypeScript', 'Tailwind CSS', 'Docker'],
+    technologies: [
+      'React.js',
+      'Next.js',
+      'Node.js',
+      'MongoDB',
+      'Express',
+      'TypeScript',
+      'Tailwind CSS',
+      'Docker',
+    ],
   },
   {
     title: 'Full Stack Developer',
@@ -54,21 +63,32 @@ export const experiencesData = [
     description:
       'Built dashboards and internal tools using the MERN stack for a Polish tech company. Focused on responsive design, smooth user interfaces, and seamless API integrations with React.js and Next.js.',
     period: '2021 – 2023',
-    technologies: ['Next.js', 'React.js', 'Material-UI', 'Node.js', 'MongoDB', 'Express', 'TypeScript', 'Tailwind CSS', 'Firebase', 'RESTful API'],
+    technologies: [
+      'Next.js',
+      'React.js',
+      'Material-UI',
+      'Node.js',
+      'MongoDB',
+      'Express',
+      'TypeScript',
+      'Tailwind CSS',
+      'Firebase',
+      'RESTful API',
+    ],
   },
 ] as const;
 
 export const skillsData = [
-  { icon: <Icons.html       className="size-12" />, label: 'HTML5' },
-  { icon: <Icons.css        className="size-12" />, label: 'CSS3' },
-  { icon: <Icons.sass       className="size-12" />, label: 'Sass' },
-  { icon: <Icons.tailwind   className="size-12" />, label: 'Tailwind CSS' },
+  { icon: <Icons.html className="size-12" />, label: 'HTML5' },
+  { icon: <Icons.css className="size-12" />, label: 'CSS3' },
+  { icon: <Icons.sass className="size-12" />, label: 'Sass' },
+  { icon: <Icons.tailwind className="size-12" />, label: 'Tailwind CSS' },
   { icon: <Icons.javascript className="size-12" />, label: 'JavaScript' },
   { icon: <Icons.typescript className="size-12" />, label: 'TypeScript' },
-  { icon: <Icons.react      className="size-12" />, label: 'React' },
-  { icon: <Icons.nextjs     className="size-12" />, label: 'Next.js' },
-  { icon: <Icons.nestjs     className="size-12" />, label: 'NestJS' },
-  { icon: <Icons.docker     className="size-12" />, label: 'Docker' },
+  { icon: <Icons.react className="size-12" />, label: 'React' },
+  { icon: <Icons.nextjs className="size-12" />, label: 'Next.js' },
+  { icon: <Icons.nestjs className="size-12" />, label: 'NestJS' },
+  { icon: <Icons.docker className="size-12" />, label: 'Docker' },
 ] as const;
 
 export const testimonialsData = [
