@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.brand}`,
   },
   description: siteConfig.description,
-  keywords: siteConfig.keywords,
+  keywords: [...siteConfig.keywords],
 
   // ── Robots ────────────────────────────────────────────────────────────────
   robots: {

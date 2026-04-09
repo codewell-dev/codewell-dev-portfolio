@@ -1,0 +1,18 @@
+1:"$Sreact.fragment"
+2:I[93963,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Header"]
+3:I[4081,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Intro"]
+4:I[68331,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"SectionDivider"]
+5:I[16474,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"WhyHireMe"]
+6:I[74423,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"About"]
+7:I[21191,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Services"]
+8:I[99774,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Experience"]
+9:I[75998,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Projects"]
+a:I[20470,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Blog"]
+b:I[29278,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Testimonials"]
+c:I[50300,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Contact"]
+d:I[54231,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"Footer"]
+e:I[94013,["/_next/static/chunks/a26110169df6c7be.js","/_next/static/chunks/e23820b09159948a.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/f30ae319d9f01b5b.js"],"ThemeToggle"]
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+0:{"buildId":"vknd8GzecbNMvx3IiYbbn","rsc":["$","$1","c",{"children":[[["$","div",null,{"className":"container flex flex-col items-center","children":[["$","$L2",null,{}],["$","main",null,{"id":"main-content","children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}]]}],["$","$Ld",null,{}]]}],["$","$Le",null,{"className":"bg-background hidden sm:fixed sm:bottom-8 sm:right-8 sm:flex"}]],[["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/f30ae319d9f01b5b.js","async":true}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"loading":null,"isPartial":false}
+11:null

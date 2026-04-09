@@ -2,22 +2,22 @@
 
 > Personal portfolio website built with Next.js 16, React 19, TypeScript, and Tailwind CSS. Multilingual (EN / PL / UK), SEO-first, and designed to attract EU clients.
 
-**Live:** [codewell-dev.com](https://codewell-dev.com)
+**Live:** [codewell-dev.com](https://codewell-dev-portfolio.vercel.app)
 
 ---
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 16 (static export) |
-| Language | TypeScript 5 |
-| Styling | Tailwind CSS 3 + custom CSS vars |
-| Animations | Framer Motion 12 |
-| Fonts | Playfair Display (serif headings) + DM Sans (body) |
-| i18n | Custom context — EN / PL / UK |
-| Forms | Formspree |
-| Deployment | Netlify / Vercel |
+| Layer      | Technology                                         |
+| ---------- | -------------------------------------------------- |
+| Framework  | Next.js 16 (static export)                         |
+| Language   | TypeScript 5                                       |
+| Styling    | Tailwind CSS 3 + custom CSS vars                   |
+| Animations | Framer Motion 12                                   |
+| Fonts      | Playfair Display (serif headings) + DM Sans (body) |
+| i18n       | Custom context — EN / PL / UK                      |
+| Forms      | Formspree                                          |
+| Deployment | Netlify / Vercel                                   |
 
 ---
 
@@ -121,11 +121,11 @@ Edit `src/lib/site-config.ts`:
 
 ```ts
 export const siteConfig = {
-  brand: 'codewell-dev',          // Your brand name
-  url: 'https://codewell-dev.com', // Your domain
-  email: 'hello@codewell-dev.com', // Contact email
-  github: 'https://github.com/...',
-  linkedin: 'https://linkedin.com/in/...',
+  brand: 'codewell-dev', // Your brand name
+  url: 'https://codewell-dev-portfolio.vercel.app', // Your domain
+  email: 'codewelldev@proton.me', // Contact email
+  github: 'https://github.com/codewell-dev',
+  linkedin: 'https://linkedin.com/codewell-dev',
   // ...
 };
 ```
@@ -200,7 +200,7 @@ After deploying:
 ### Environment Variables
 
 ```env
-SITE_URL=https://codewell-dev.com
+SITE_URL=https://codewell-dev-portfolio.vercel.app
 GOOGLE_SITE_VERIFICATION_ID=your-token
 ```
 

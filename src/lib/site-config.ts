@@ -40,13 +40,13 @@ export const siteConfig = {
     'freelance web developer EU',
     'contract developer remote',
     'web development for startups',
-    'ecommerce development',
+    'ecommerce development'
     'CRM development',
     'dashboard development',
   ],
 
   // ── URLs & contact ───────────────────────────────────────────────────────
-  url: 'https://codewell-dev.com',
+  url: 'https://codewell-dev-portfolio.vercel.app',
   email: 'codewelldev@proton.me',
   github: 'https://github.com/codewell-dev',
   linkedin: 'https://linkedin.com/',

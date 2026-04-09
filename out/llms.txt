@@ -1,0 +1,27 @@
+# codewell-dev — Full Stack Development Studio
+
+> codewell-dev is a full-stack development studio delivering fast, scalable web applications with React, Next.js, and Node.js. Available for freelance and contract work across Europe — remote or onsite.
+
+## About
+
+codewell-dev is a boutique studio with 3.5+ years of production experience. We specialize in React.js, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, and Docker. We have delivered e-commerce platforms, CRM systems, dashboards, and REST APIs for clients in Ukraine and remotely for companies across Europe (Poland, Germany, Netherlands).
+
+## Services
+
+- Frontend Development: React, Next.js, TypeScript, Tailwind CSS, Framer Motion
+- Full Stack: MERN Stack, Node.js, Express, REST APIs, JWT, OAuth
+- Database & Backend: MongoDB, PostgreSQL, MySQL, Firebase, Prisma
+- Performance: Core Web Vitals, Lighthouse, code splitting, caching
+- Architecture: State management, API design, component systems
+- DevOps: Docker, CI/CD, GitHub Actions, Vercel, Netlify
+
+## Target Markets
+
+Poland, Germany, Netherlands, EU, Ukraine — remote or onsite
+
+## Contact
+
+- Email: hello@codewell-dev.com
+- GitHub: https://github.com/vladyslav-codewell
+- LinkedIn: https://linkedin.com/in/vladyslav-koval-795b1038b/
+- Website: https://codewell-dev.com
