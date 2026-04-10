@@ -22,7 +22,7 @@ export const projectsData = [
       'Full-featured food ordering platform built with Next.js and NestJS. Real-time order management, product catalog, and cart system backed by MongoDB.',
     technologies: ['React', 'MaterialUI', 'NestJS', 'MongoDB'],
     links: {
-      preview: 'https://pizzahouse.ua/',
+      preview: 'https://pizza-house-client-ochre.vercel.app/',
       github: 'https://github.com/codewell-dev/pizza-house-client',
     },
   },
