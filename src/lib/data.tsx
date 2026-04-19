@@ -30,11 +30,28 @@ export const projectsData = [
     image: '/images/portfolio.png',
     title: 'codewell-dev Portfolio',
     description:
-      'This portfolio site. Built with Next.js, multilingual (EN/PL/UK), full SEO — JSON-LD, hreflang, Open Graph, and llms.txt for AI discoverability.',
+      'This portfolio site. Built with Next.js, multilingual (EN/PL/UK), full SEO — JSON-LD, hreflang, Open Graph.',
     technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
     links: {
       preview: 'https://codewell-dev-portfolio.vercel.app',
       github: 'https://github.com/codewell-dev/codewell-dev-portfolio',
+    },
+  },
+  {
+    image: '/images/forma.png',
+    title: 'FORMA — Premium E-commerce Experience',
+    description:
+      'Production-grade e-commerce storefront built with Next.js 14 and Redux Toolkit. Designed as a dark luxury brand with a custom design system, immersive UI, and real-world architecture including product catalog, cart state persistence, and dynamic data fetching via RTK Query.',
+    technologies: [
+      'Next.js 14',
+      'TypeScript',
+      'Redux Toolkit',
+      'Tailwind CSS',
+      'RTK Query',
+    ],
+    links: {
+      preview: 'https://next-shop-ih5f.vercel.app/',
+      github: 'https://github.com/codewell-dev/next-shop',
     },
   },
 ] as const;
