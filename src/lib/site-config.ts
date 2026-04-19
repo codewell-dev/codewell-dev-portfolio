@@ -50,7 +50,7 @@ export const siteConfig = {
   email: 'codewelldev@proton.me',
   github: 'https://github.com/codewell-dev',
   linkedin: 'https://linkedin.com/',
-  instagram: 'https://www.instagram.com/',
+  instagram: 'https://www.instagram.com/codewelldev',
 
   // ── Verification tokens (fill in later) ─────────────────────────────────
   googleSiteVerificationId: '',
