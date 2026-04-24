@@ -1,39 +1,31 @@
-import { About } from '@/components/about';
-import { Blog } from '@/components/blog';
-import { Contact } from '@/components/contact';
-import { Experience } from '@/components/experience';
-import { Footer } from '@/components/footer';
-import { Header } from '@/components/header';
-import { Intro } from '@/components/intro';
-import { Projects } from '@/components/projects';
-import { SectionDivider } from '@/components/section-divider';
-import { Services } from '@/components/services';
-import { Testimonials } from '@/components/testimonials';
-import { ThemeToggle } from '@/components/theme-toggle';
-import { WhyHireMe } from '@/components/why-hire-me';
+import dynamic from 'next/dynamic'
+import Header from '@/components/ui/Header'
+import Hero from '@/components/sections/Hero'
+import About from '@/components/sections/About'
+import Footer from '@/components/ui/Footer'
 
-const HomePage = () => {
+const Projects    = dynamic(() => import('@/components/sections/Projects'))
+const Experience  = dynamic(() => import('@/components/sections/ExpSkills').then(m => ({ default: m.Experience })))
+const Skills      = dynamic(() => import('@/components/sections/ExpSkills').then(m => ({ default: m.Skills })))
+const Testimonials = dynamic(() => import('@/components/sections/Social').then(m => ({ default: m.Testimonials })))
+const WhyMe       = dynamic(() => import('@/components/sections/Social').then(m => ({ default: m.WhyMe })))
+const Contact     = dynamic(() => import('@/components/sections/Contact'))
+
+export default function Page() {
   return (
     <>
-      <div className="container flex flex-col items-center">
-        <Header />
-        <main id="main-content">
-          <Intro />
-          <SectionDivider />
-          <WhyHireMe />
-          <About />
-          <Services />
-          <Experience />
-          <Projects />
-          <Blog />
-          <Testimonials />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
-      <ThemeToggle className="bg-background hidden sm:fixed sm:bottom-8 sm:right-8 sm:flex" />
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Skills />
+        <WhyMe />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
     </>
-  );
-};
-
-export default HomePage;
+  )
+}
