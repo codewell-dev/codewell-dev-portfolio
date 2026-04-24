@@ -7,6 +7,7 @@ import { t } from '@/lib/translations'
 import { site } from '@/lib/data'
 import { useReveal } from '@/lib/useReveal'
 
+
 type Status = 'idle' | 'sending' | 'done' | 'error'
 
 export default function Contact() {
@@ -21,11 +22,38 @@ export default function Contact() {
     setForm(f => ({ ...f, [k]: e.target.value }))
 
   const submit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setStatus('sending')
-    await new Promise(r => setTimeout(r, 1400))
-    setStatus('done')
-  }
+    e.preventDefault();
+    setStatus('sending');
+  
+    try {
+      const res = await fetch('https://formspree.io/f/mwvabzkd', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: `
+  ${form.details}
+  Budget: ${form.budget || '-'}
+  Timeline: ${form.timeline || '-'}
+          `,
+        }),
+      });
+  
+      if (res.ok) {
+        setStatus('done');
+        setForm({ name: '', email: '', details: '', budget: '', timeline: '' });
+      } else {
+        setStatus('error');
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus('error');
+    }
+  };
 
   const inputClass = `
     w-full bg-transparent border-b font-body text-sm font-light
