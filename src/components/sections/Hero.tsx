@@ -109,6 +109,19 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3">
               <a href="#contact" className="btn-primary">{copy.cta1}</a>
               <a href="#projects" className="btn-ghost">{copy.cta2}</a>
+              <a
+                href="/cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-ghost"
+                style={{ gap: '6px' }}
+              >
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+                  <path d="M6.5 1v8M3 6l3.5 3.5L10 6" stroke="currentColor" strokeWidth="1.2" strokeLinecap="square"/>
+                  <path d="M1 11h11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="square"/>
+                </svg>
+                {copy.cv}
+              </a>
             </div>
           </div>
 

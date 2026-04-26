@@ -34,7 +34,7 @@ export default function Footer() {
               className="font-display font-black text-base mb-3"
               style={{ letterSpacing: '-0.03em' }}
             >
-              codewell<span style={{ color: 'var(--mint)' }}>.</span>dev
+              Vladyslav<span style={{ color: 'var(--mint)' }}>.</span>dev
             </p>
             <p
               className="font-mono"
@@ -116,7 +116,7 @@ export default function Footer() {
             className="font-mono"
             style={{ fontSize: '9px', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(242,240,235,0.2)' }}
           >
-            © {year} codewell.dev — {copy.footer.rights}
+            © {year} Vladyslav · codewell — {copy.footer.rights}
           </p>
           <p
             className="font-mono"

@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
+import * as THREE from 'three';
 
 export default function HeroScene() {
   const mountRef = useRef<HTMLDivElement>(null);
