@@ -1,7 +1,7 @@
 export const site = {
   email: 'codewelldev@proton.me',
   github: 'https://github.com/codewell-dev',
-  linkedin: 'https://www.linkedin.com/in/vladyslav-codewell-795b1038b/',
+  linkedin: 'https://www.linkedin.com/in/',
   instagram: 'https://www.instagram.com/codewelldev',
 };
 
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     id: 'portfolio',
-    title: 'Vladyslav · codewell',
+    title: 'Codewell',
     sub_en: 'Portfolio Site',
     sub_uk: 'Портфоліо',
     tag_en: 'Frontend',
